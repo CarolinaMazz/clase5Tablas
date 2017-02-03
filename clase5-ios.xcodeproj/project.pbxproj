@@ -12,6 +12,8 @@
 		FB214CB01E44018D00ECA84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB214CAE1E44018D00ECA84E /* Main.storyboard */; };
 		FB214CB21E44018D00ECA84E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB214CB11E44018D00ECA84E /* Assets.xcassets */; };
 		FB214CB51E44018D00ECA84E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB214CB31E44018D00ECA84E /* LaunchScreen.storyboard */; };
+		FB214CBD1E440FFD00ECA84E /* DatosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB214CBC1E440FFD00ECA84E /* DatosTableViewController.swift */; };
+		FB214CBF1E4416FB00ECA84E /* MostrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB214CBE1E4416FB00ECA84E /* MostrarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB214CB11E44018D00ECA84E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB214CB41E44018D00ECA84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB214CB61E44018D00ECA84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB214CBC1E440FFD00ECA84E /* DatosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosTableViewController.swift; sourceTree = "<group>"; };
+		FB214CBE1E4416FB00ECA84E /* MostrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostrarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FB214CB11E44018D00ECA84E /* Assets.xcassets */,
 				FB214CB31E44018D00ECA84E /* LaunchScreen.storyboard */,
 				FB214CB61E44018D00ECA84E /* Info.plist */,
+				FB214CBC1E440FFD00ECA84E /* DatosTableViewController.swift */,
+				FB214CBE1E4416FB00ECA84E /* MostrarViewController.swift */,
 			);
 			path = "clase5-ios";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB214CAD1E44018D00ECA84E /* ViewController.swift in Sources */,
+				FB214CBF1E4416FB00ECA84E /* MostrarViewController.swift in Sources */,
 				FB214CAB1E44018D00ECA84E /* AppDelegate.swift in Sources */,
+				FB214CBD1E440FFD00ECA84E /* DatosTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
